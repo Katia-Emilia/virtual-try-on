@@ -71,6 +71,18 @@ Encapsulate the information about the user's head movement, such as position, ro
    - [Set Up 3D Glasses Model with Three.js]
    - [Positioning and Manual Rotation of Spectacles]
    - [Render Virtual Try-On]
+     
+## Prerequisites
+
+Browser that supports WebGL 1.0
+
+
+## Instructions
+
+Open index.html in your preferred web browser. You can do this by:
+Double-clicking the index.html file, which should open it in your default web browser.
+Or, right-clicking the index.html file and selecting "Open with" to choose a specific browser.
+Alternatively, you can use a local development server to view the site.
 
 ## Conclusion
 
