@@ -1,0 +1,229 @@
+body {
+    font-family: PT Serif, Georgia, Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfb0ec;
+  }
+
+header {
+    background-color: #da9797;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow-x: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    color: #161616;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: rgba(153, 42, 245, 0.5);
+  }
+  
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%; /* start from the right edge */
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.hero {
+    background-image: url('spec/bgimg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.featured-products {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666;
+}
+
+.call-to-action {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.call-to-action input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.call-to-action button {
+    background-color: #333;
+    color: #e2cbcb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+                                                                                             
+body {
+    font-family: PT Serif, Georgia, Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fdf6f6;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+
+.login-form, .signup-form {
+    background-color: #88bbeb;
+    padding: 2em;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border:   1px solid #ccc;
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+.view-details-button {
+    font-size: 18px; 
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .view-details-button:hover {
+    background-color: #0069d9; /* change background color on hover */
+  }
+
+footer {
+    background-color: #252424;
+    color: #e7e4e4;
+    text-align: center;
+    padding: 1px 0;
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+} 

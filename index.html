@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensLab</title>
+    <style>
+        canvas, video {
+            position: absolute;
+            top: 0;
+            left: 0;
+        } 
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                                                                               
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li> 
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero">
+    <h1>Welcome to LensLab!</h1>
+    <p>Explore our collection of stylish sunglasses and spectacles</p>
+    <button>Shop Now</button>
+  </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="marquee">
+            <span>Virtual Try On for Glasses</span>
+          </div>
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="spec/glasses1.jpg" alt="Product 1">
+                <h3>Vincent Polarized Sunglasses</h3>
+                <p>$50.00</p>
+            </div>
+            <div class="product">
+                <img src="spec/glasses2.jpg" alt="Product 2">
+                <h3>Black WayFarer Sunglasses</h3>
+                <p>$75.00</p>
+            </div>
+            <div class="product">
+                <img src="spec/glasses3.jpg" alt="Product 3">
+                <h3>Blue Round EyeGlasses</h3>
+                <p>$120.00</p>
+                <button class="view-details-button" onclick="loadVgHtml()">View Details</button>
+                <script>
+                    function loadVgHtml() {
+                    window.location.href = 'vg.html';
+                }
+</script>
+            </div>
+            <div class="product">
+                    <img src="spec/glasses4.jpg" alt="Product 4">
+                    <h3>Yellow Rimmed EyeGlasses</h3>
+                    <p>$75.00</p>
+            </div>
+
+            <div class="product">
+                    <img src="spec/glasses5.jpg" alt="Product 5">
+                    <h3>Black Square Rimmed Eyeglasses</h3>
+                    <p>$75.00</p>
+            </div>
+
+            <div class="product">
+                <img src="spec/glasses6.jpg" alt="Product 6">
+                <h3>Black WayFarer Men Sunglasses</h3>
+                <p>$75.00</p>
+            </div>
+
+            <div class="product">
+                <img src="spec/glasses7.jpg" alt="Product 7">
+                <h3>Blue Rectangle Rimmed Sunglasses</h3>
+                <p>$75.00</p>
+            </div>
+
+            <div class="product">
+                <img src="spec/glasses8.jpg" alt="Product 8">
+                <h3>Purple Round Rimmed Eyeglasses</h3>
+                <p>$75.00</p>
+            </div>
+                                                    
+            <div class="product">
+                <img src="spec/glasses9.jpg" alt="Product 9">
+                <h3>BLU Screen Glasses</h3>
+                <p>$75.00</p>
+            </div>
+
+
+            <!-- Add more products here -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+        </div>
+
+    </section>
+                                                                                                                          
+    <section class="call-to-action">
+        <h2>Get 10% off your first order!</h2>
+        <p>Sign up for our newsletter to receive exclusive discounts and promotions</p>
+        <input type="email" placeholder="Enter your email address">
+        <button>Subscribe</button>
+    </section>
+   
+    <footer>
+        <p>&copy; 2024 LensLab. All rights reserved.</p>
+    </footer>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
